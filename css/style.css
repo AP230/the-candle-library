@@ -19,14 +19,6 @@ header {
     background-color: rgb(255, 242, 231);
 }
 
-.cookie {
-    width: 100px;
-    height: 200px;
-    margin: 20px auto;
-    border-radius: 10px;
-    background-color: hsl(323, 100%, 50%); /* Default color */
-
-}
 
 #color-swatches {
     display: flex;
@@ -35,7 +27,7 @@ header {
     margin-top: 20px;
 }
 
-.swatch {
+div[id^="swatch"] {
     width: 40px;
     height: 40px;
     border: 2px solid hwb(0 0% 100%);
